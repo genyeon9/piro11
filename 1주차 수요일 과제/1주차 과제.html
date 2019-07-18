@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml" xmlns:width="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        body {
+            background-color: #fafafa;
+        }
+        #insta_image {
+            position:absolute;
+            top:41.5px;
+            left:379px;
+        }
+        #wrapper{
+            position:absolute;
+            top:65px;
+            left:786px;
+            text-align:center;
+            overflow:hidden;
+        }
+        #wrapper #wrap {
+            width:349px; height:375px;
+            background-color:#ffffff;
+            border:1px solid #e6e6e6;
+            overflow:hidden;
+        }
+        #wrapper #wrap .인스타그램체 {
+            margin:15px auto 25px auto;
+        }
+        #wrapper #wrap .login input {
+            width:250px; height:23px;
+            border:1px solid #e6e6e6;
+            background-color:#fafafa;
+            padding:7px;
+            margin:3px auto;
+            border-radius:3px;
+            font-size:12px;
+            color: #a5a5a5;
+        }
+        #wrapper #wrap .login .btn_login {
+            width:265px; height:30px;
+            margin: 5px auto;
+            background-color:#2476ff;
+            color:#ffffff;
+            border-radius:5px;
+            opacity: 0.3;
+            border:0;
+            outline:0;
+            font-weight:bold;
+        }
+        #wrap .또는 {
+            margin-top: 10px;
+        }
+        #wrap .fb {
+            margin: 20px auto 50px;
+        }
+        #wrap .fb .fb_login {
+            text-decoration:none;
+            font-size:14px;
+            color: #2a158a;
+            font-weight:bold;
+        }
+        #wrap .fb .lost_pw {
+            text-decoration:none;
+            font-size:12px;
+            color:#000000;
+            font-weight:lighter;
+        }
+        #wrapper #sign_in {
+            border:1px solid #e6e6e6;
+            margin:10px 0 0 0;
+            background-color:#ffffff;
+            width:349px; height:60px;
+            line-height:30px;
+            font-size:0.87em;
+            font-weight: lighter;
+        }
+        #sign_in a {
+            text-decoration:none;
+            font-weight: bold;
+            color: #2476ff;
+            font-size:14px;
+        }
+        #download {
+            overflow:hidden;
+        }
+        #download div {
+            font-size:14px;
+            width:349px; height:30px;
+            margin:25px 0 25px 0;
+            text-align:center;
+        }
+        #download .btn_appstore {
+            float:left;
+            margin-left:45px;
+            border:0;
+            outline:0;
+            max-width:130px;
+            max-height:40px;
+            overflow:hidden;
+            border-radius:5px;
+        }
+        #download .btn_appstore img {
+            max-width:initial;
+            max-height:initial;
+            margin:0 -10%;
+        }
+        #download .btn_googleplay {
+            margin-left:15px;
+            float:left;
+            border:0;
+            outline:0;
+            max-width:130px;
+            max-height:40px;
+            overflow:hidden;
+            border-radius:5px;
+        }
+        #download .btn_googleplay img {
+            max-width:initial;
+            max-height:initial;
+            margin:0 -10%;
+        }
+        footer {
+            position:absolute;
+            top:740px;
+            left:250px;
+            height:100px;
+        }
+        footer ul{
+            overflow:hidden;
+            list-style:none;
+            float:left;
+        }
+        footer ul li {
+            float:left;
+            margin-right:15px;
+        }
+        footer ul li a {
+            text-decoration:none;
+            font-size:12px;
+            color: #393939;
+            font-weight:bold;
+        }
+        #c_instagram {
+            position:absolute;
+            top:760px;
+            left:1110px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div id="insta_image">
+            <div class="insta_img"><img src="insta_img.jpg" width="385" height="600" alt="phone_img"></div>
+        </div>
+        <div id="wrapper">
+            <div id="wrap">
+                <div class="인스타그램체">
+                    <img src="인스타그램체.jpg" width="200" height="70" alt="instagram">
+                </div>
+                <div class="login">
+                    <input type="text" placeholder="전화번호, 사용자 이름 또는 이메일" /><br/>
+                    <input type="password" placeholder="비밀번호" /><br/>
+                    <button type="submit" class="btn_login" style="cursor:pointer"><span class="txt_lg">로그인</span></button>
+                </div>
+                <div class="또는"><img src="또는.jpg" width="300" alt="또는"></div>
+                <div class="fb">
+                    <img src="facebook.jpg" width="19" height="19" alt="facebook_logo"><a class="fb_login" href="#">Facebook으로 로그인</a></br><br/>
+                    <a class="lost_pw" href="#">비밀번호를 잊으셨나요?</a>
+                </div>
+
+            </div>
+            <div id="sign_in">
+                <p>계정이 없으신가요?<a href="#">가입하기</a></p>
+            </div>
+            <div id="download">
+                <div>앱을 다운로드하세요.</div>
+                <button type="button" class="btn_appstore" style="cursor:pointer"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_ios_korean-ko.png/4a5c9d62d51b.png" width="130px" height="40" alt="appstore_img"></button>
+                <button type="button" class="btn_googleplay" style="cursor:pointer"><img src="https://www.instagram.com/static/images/appstore-install-badges/badge_android_korean-ko.png/f155b664a93b.png" width="130px" height="40" alt="googleplay_img"></button>
+            </div>
+        </div>
+    </header>
+
+    <footer>
+        <ul>
+            <li><a href="#">INSTAGRAM 정보</a></li>
+            <li><a href="#">지원</a></li>
+            <li><a href="#">홍보 센터</a></li>
+            <li><a href="#">API</a></li>
+            <li><a href="#">채용 정보</a></li>
+            <li><a href="#">개인정보처리방침</a></li>
+            <li><a href="#">약관</a></li>
+            <li><a href="#">디렉터리</a></li>
+            <li><a href="#">프로필</a></li>
+            <li><a href="#">해시태그</a></li>
+            <li><a href="#">언어</a></li>
+        </ul>
+    </footer>
+    <div id="c_instagram"><img src="2019instagram.jpg" width="130" alt="2019instagram"></div>
+</body>
+</html>
