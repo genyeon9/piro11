@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f7f8df-4808-4828-aa04-1513d9aea158" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/gitignore/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gitignore/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,8 +27,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="95">
+              <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
               <folding>
                 <element signature="e#1#29#0" expanded="true" />
               </folding>
@@ -40,8 +39,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+            <state relative-caret-position="190">
+              <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
               <folding>
                 <element signature="e#0#4#0" expanded="true" />
               </folding>
@@ -115,8 +114,8 @@
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" />
-        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" />
+        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" />
       </list>
     </option>
   </component>
@@ -207,12 +206,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563496020468</updated>
-      <workItem from="1563496025568" duration="9554000" />
+      <workItem from="1563496025568" duration="10180000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9554000" />
+    <option name="totallyTimeSpent" value="10180000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="0" width="784" height="832" extended-state="0" />
@@ -294,8 +293,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
+        <state relative-caret-position="190">
+          <caret line="10" column="33" lean-forward="true" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
           <folding>
             <element signature="e#0#4#0" expanded="true" />
           </folding>
@@ -304,8 +303,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
+        <state relative-caret-position="95">
+          <caret line="5" column="61" selection-start-line="5" selection-start-column="61" selection-end-line="5" selection-end-column="61" />
           <folding>
             <element signature="e#1#29#0" expanded="true" />
           </folding>
