@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f7f8df-4808-4828-aa04-1513d9aea158" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gitignore/.gitignore" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -25,10 +28,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+            <state relative-caret-position="76">
+              <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
               <folding>
-                <element signature="e#0#28#0" expanded="true" />
+                <element signature="e#1#29#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -37,8 +40,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+            <state relative-caret-position="133">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding>
                 <element signature="e#0#4#0" expanded="true" />
               </folding>
@@ -58,8 +61,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="284">
-              <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+            <state relative-caret-position="156">
+              <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
               <folding>
                 <element signature="e#633#665#0" expanded="true" />
               </folding>
@@ -75,11 +78,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <element signature="e#0#32#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="37" selection-start-column="37" selection-end-column="37" />
             </state>
           </provider>
         </entry>
@@ -112,11 +112,11 @@
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/views.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/migrations/urls.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/templates/blog/post_list.html" />
-        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py" />
+        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" />
-        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py" />
+        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py" />
       </list>
     </option>
   </component>
@@ -207,12 +207,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563496020468</updated>
-      <workItem from="1563496025568" duration="7824000" />
+      <workItem from="1563496025568" duration="9554000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7824000" />
+    <option name="totallyTimeSpent" value="9554000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="0" width="784" height="832" extended-state="0" />
@@ -277,18 +277,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="1" lean-forward="true" selection-end-line="6" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#32#0" expanded="true" />
-          </folding>
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
+        <state relative-caret-position="156">
+          <caret line="16" column="46" selection-start-line="16" selection-start-column="46" selection-end-line="16" selection-end-column="46" />
           <folding>
             <element signature="e#633#665#0" expanded="true" />
           </folding>
@@ -297,8 +294,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
+        <state relative-caret-position="133">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding>
             <element signature="e#0#4#0" expanded="true" />
           </folding>
@@ -307,10 +304,10 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/dojo/urls.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="76">
+          <caret line="4" column="37" selection-start-line="4" selection-start-column="37" selection-end-line="4" selection-end-column="37" />
           <folding>
-            <element signature="e#0#28#0" expanded="true" />
+            <element signature="e#1#29#0" expanded="true" />
           </folding>
         </state>
       </provider>

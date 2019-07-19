@@ -3,5 +3,6 @@ from django.shortcuts import render
 
 # Create your views here.
 
-def mysum(request, x, y=0, z=0):
-    return HttpResponse(int(x)+int(y)+int(z))
+def mysum(request, numbers):
+    result = sum(map(lambda x:int(x or 0),numbers.split('/')))
+    return HttpResponse(result)
