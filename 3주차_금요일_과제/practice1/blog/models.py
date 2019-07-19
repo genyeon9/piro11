@@ -26,3 +26,9 @@ class Post(models.Model):  #페이지에 저장되는 속성값들(포스팅 내
     status = models.CharField(max_length=1, choices=STATUS_CHOICES)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+    class Meta:
+        ordering = ['-id']
+
+    def __str__(self):
+        return self.title

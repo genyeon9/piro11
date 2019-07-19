@@ -13,6 +13,7 @@ Including another URLconf
     1. Import the include() function: from django.urls import include, path
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
+from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include, re_path
 
@@ -21,3 +22,11 @@ urlpatterns = [
     path('blog/', include('blog.urls')),
     path('dojo/', include('dojo.urls'))
 ]
+
+if settings.DEBUG: #html 페이지에 body 태그를 써야 함
+    import debug_toolbar
+    urlpatterns += [
+        path('__debug__/', include(debug_toolbar.urls)),
+    ]
+
+
