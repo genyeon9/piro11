@@ -4,8 +4,8 @@ from .models import Post
 
 # Register your models here.
 
-@admin.register(Post)
-class PostAdmin(admin.ModelAdmin):
+@admin.register(Post) #admin의 작동방식?은 admin.py에 저장
+class PostAdmin(admin.ModelAdmin):  #admin.ModelAdmin을 상속
     list_display = ['id', 'title', 'content_size','status', 'created_at', 'updated_at']
 
     actions = ['make_published', 'make_draft']

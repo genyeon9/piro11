@@ -8,7 +8,7 @@ def lnglat_validator(value):
     if not re.match(r'^([+-]?\d+\.?\d*),([+-]?\d+\.?\d*)$', value):
         raise ValidationError('Invalid LngLat Type')
 
-class Post(models.Model):
+class Post(models.Model):  #페이지에 저장되는 속성값들(포스팅 내용)?은 models.py에 저장
     STATUS_CHOICES = (
         ('d', 'Draft'),
         ('p', 'Published'),

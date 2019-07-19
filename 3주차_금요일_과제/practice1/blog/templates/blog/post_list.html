@@ -3,3 +3,16 @@
 <p>
     안녕하세요
 </p>
+
+<form action=""></form>
+
+<ul>
+    {% for post in post_list %}
+        <li>
+            {{post.id}}
+            {{post.title}}
+            <small>by{{post.author}}</small>
+            <small>at {{post.updated_at}}</small>
+        </li>
+    {% endfor %}
+</ul>
