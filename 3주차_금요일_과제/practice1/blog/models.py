@@ -15,7 +15,7 @@ class Post(models.Model):  #페이지에 저장되는 속성값들(포스팅 내
         ('w', 'Withdrawn'),
     )
 
-    author = models.CharField(max_length=20)
+    author = models.CharField(max_length=20, verbose_name='작성자')
     title = models.CharField(max_length=100, verbose_name='제목',
         help_text='포스팅 제목을 입력해주세요. 최대 100자 내외.') #길이 제한 있는 문자열
     content = models.TextField(verbose_name='내용') #길이 제한 없는 문자열
@@ -32,3 +32,10 @@ class Post(models.Model):  #페이지에 저장되는 속성값들(포스팅 내
 
     def __str__(self):
         return self.title
+
+class Comment(models.Model):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE) #Post가 삭제되면 연결된 다수의 post를 모두 삭제해주겠다.
+    author = models.CharField(max_length=20)
+    message = models.TextField()
+    created_at = models.DateTimeField(auto_now_add=True)
+    updated_at = models.DateTimeField(auto_now=True)

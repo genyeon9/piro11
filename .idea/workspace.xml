@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="40f7f8df-4808-4828-aa04-1513d9aea158" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/templates/blog/post_list.html" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/templates/blog/post_list.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,16 +24,16 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
+            <state relative-caret-position="251">
+              <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="208">
@@ -134,9 +131,9 @@
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/admin.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/views.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/models.py" />
-        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/templates/blog/post_list.html" />
         <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/urls.py" />
+        <option value="$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py" />
       </list>
     </option>
   </component>
@@ -246,12 +243,12 @@
       <option name="presentableId" value="Default" />
       <updated>1563496020468</updated>
       <workItem from="1563496025568" duration="26574000" />
-      <workItem from="1563573875931" duration="2926000" />
+      <workItem from="1563573875931" duration="3119000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29500000" />
+    <option name="totallyTimeSpent" value="29693000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="760" y="0" width="784" height="832" extended-state="0" />
@@ -378,13 +375,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="45" column="30" selection-start-line="45" selection-start-column="30" selection-end-line="45" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/blog/templates/blog/post_list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-153">
@@ -399,6 +389,13 @@
           <folding>
             <element signature="e#633#637#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/3주차_금요일_과제/practice1/practice1/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="251">
+          <caret line="46" column="30" lean-forward="true" selection-start-line="46" selection-start-column="30" selection-end-line="46" selection-end-column="30" />
         </state>
       </provider>
     </entry>

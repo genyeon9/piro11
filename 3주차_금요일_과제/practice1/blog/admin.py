@@ -1,12 +1,12 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
-from .models import Post
+from .models import Post, Comment
 
 # Register your models here.
 
-@admin.register(Post) #admin의 작동방식?은 admin.py에 저장
+@admin.register(Post)
 class PostAdmin(admin.ModelAdmin):  #admin.ModelAdmin을 상속
-    list_display = ['id', 'title', 'content_size','status', 'created_at', 'updated_at']
+    list_display = ['id', 'title', 'content_size', 'status', 'created_at', 'updated_at']
 
     actions = ['make_published', 'make_draft']
 
@@ -25,3 +25,9 @@ class PostAdmin(admin.ModelAdmin):  #admin.ModelAdmin을 상속
     make_draft.short_description = '지정 포스팅을 Draft상태로 변경합니다.'
 
 #admin.site.register(Post, PostAdmin)
+
+@admin.register(Comment)
+class CommentAdmin(admin.ModelAdmin):
+    pass
+
+#admin.site.register(Comment, CommentAdmin)
