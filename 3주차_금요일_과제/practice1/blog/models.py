@@ -1,6 +1,7 @@
 import re
 from django.db import models
 from django.forms import ValidationError
+from django.conf import settings
 
 # Create your models here.
 
@@ -15,7 +16,7 @@ class Post(models.Model):
         ('w', 'Withdrawn'),
     )
 
-    author = models.CharField(max_length=20, verbose_name='작성자')
+    user = models.ForeignKey(settings.AUTH_USER_MODEL, on_delete=models.CASCADE)
     title = models.CharField(max_length=100, verbose_name='제목',
         help_text='포스팅 제목을 입력해주세요. 최대 100자 내외.') #길이 제한 있는 문자열
     content = models.TextField(verbose_name='내용') #길이 제한 없는 문자열
