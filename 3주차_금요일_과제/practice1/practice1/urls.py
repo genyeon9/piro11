@@ -20,7 +20,8 @@ from django.urls import path, include, re_path
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
-    path('dojo/', include('dojo.urls'))
+    path('dojo/', include('dojo.urls')),
+    path('accounts/', include('accoutns.urls'))
 ]
 
 if settings.DEBUG: #html 페이지에 body 태그를 써야 함
