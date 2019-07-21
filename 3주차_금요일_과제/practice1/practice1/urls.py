@@ -21,7 +21,8 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls')),
     path('dojo/', include('dojo.urls')),
-    path('accounts/', include('accounts.urls'))
+    path('accounts/', include('accounts.urls')),
+    path('shop/', include('shop.urls')),
 ]
 
 if settings.DEBUG: #html 페이지에 body 태그를 써야 함
