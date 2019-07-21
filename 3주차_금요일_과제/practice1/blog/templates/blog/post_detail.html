@@ -13,12 +13,17 @@
 
     <h3>Comments</h3>
 
-    {% for comment in post.comment_set.all %}
-        <li>
-            {{ comment.message }}
-            <small>by {{ comment.author }}</small>
-            <small>at {{ comment.updated_at }}</small>
-        </li>
-    {% endfor %}
+    <ul>
+        {% for comment in post.comment_set.all %}
+            <li>
+                {{ comment.message }}
+                <small>by {{ comment.author }}</small>
+                <small>at {{ comment.updated_at }}</small>
+            </li>
+        {% endfor %}
+    </ul>
+
+    <hr>
+    <a href="{% url "post_list" %}">글목록</a>
 {% endblock %}
 

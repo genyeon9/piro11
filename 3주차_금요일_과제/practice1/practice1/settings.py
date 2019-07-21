@@ -61,7 +61,9 @@ ROOT_URLCONF = 'practice1.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [
+            os.path.join(BASE_DIR, 'practice1', 'templates'),  #프로젝트 전반에 쓸 템플릿 파일을 넣어둘 때
+        ],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [
