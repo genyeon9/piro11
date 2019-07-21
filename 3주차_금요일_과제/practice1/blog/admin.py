@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.utils.safestring import mark_safe
-from .models import Post, Comment
+from .models import Post, Comment, Tag
 
 # Register your models here.
 
@@ -31,3 +31,8 @@ class CommentAdmin(admin.ModelAdmin):
     pass
 
 #admin.site.register(Comment, CommentAdmin)
+
+@admin.register(Tag)
+class TagAdmin(admin.ModelAdmin):
+    list_display = ['name']
+    pass

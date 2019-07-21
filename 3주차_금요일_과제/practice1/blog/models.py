@@ -8,7 +8,7 @@ def lnglat_validator(value):
     if not re.match(r'^([+-]?\d+\.?\d*),([+-]?\d+\.?\d*)$', value):
         raise ValidationError('Invalid LngLat Type')
 
-class Post(models.Model):  #페이지에 저장되는 속성값들(포스팅 내용)?은 models.py에 저장
+class Post(models.Model):
     STATUS_CHOICES = (
         ('d', 'Draft'),
         ('p', 'Published'),
@@ -24,6 +24,7 @@ class Post(models.Model):  #페이지에 저장되는 속성값들(포스팅 내
         validators=[lnglat_validator],
         )
     status = models.CharField(max_length=1, choices=STATUS_CHOICES)
+    tag_set = models.ManyToManyField('Tag') #같은 app내에 있는 클래스를 지정할때 클래스가 뒤에서 지정되어도 ''으로 지정가능
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
@@ -39,3 +40,9 @@ class Comment(models.Model):
     message = models.TextField()
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
+
+class Tag(models.Model):
+    name = models.CharField(max_length=50, unique=True)
+
+    def __str__(self):    #Tag set에서 name이 보여지도록 하기 위함
+        return self.name
