@@ -24,7 +24,7 @@ class Post(models.Model):
         validators=[lnglat_validator],
         )
     status = models.CharField(max_length=1, choices=STATUS_CHOICES)
-    tag_set = models.ManyToManyField('Tag') #같은 app내에 있는 클래스를 지정할때 클래스가 뒤에서 지정되어도 ''으로 지정가능
+    tag_set = models.ManyToManyField('Tag', blank=True) #같은 app내에 있는 클래스를 지정할때 클래스가 뒤에서 지정되어도 ''으로 지정가능
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
 
