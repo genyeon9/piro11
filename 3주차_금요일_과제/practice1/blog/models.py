@@ -2,6 +2,7 @@ import re
 from django.db import models
 from django.forms import ValidationError
 from django.conf import settings
+from django.core.urlresolvers import reverse
 
 # Create your models here.
 
@@ -34,6 +35,9 @@ class Post(models.Model):
 
     def __str__(self):
         return self.title
+
+    def get_absolute_url(self):
+        return reverse('blog:post_detail', args=[self.id])
 
 class Comment(models.Model):
     post = models.ForeignKey(Post, on_delete=models.CASCADE) #Post가 삭제되면 연결된 다수의 post를 모두 삭제해주겠다.
