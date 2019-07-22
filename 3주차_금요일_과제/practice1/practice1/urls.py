@@ -16,8 +16,10 @@ Including another URLconf
 from django.conf import settings
 from django.contrib import admin
 from django.urls import path, include, re_path
+from django.shortcuts import redirect
 
 urlpatterns = [
+    path('', lambda r:redirect('blog:post_list'), name='root'),
     path('admin/', admin.site.urls),
     path('blog/', include('blog.urls', namespace='blog')),
     path('dojo/', include('dojo.urls', namespace='dojo')),
