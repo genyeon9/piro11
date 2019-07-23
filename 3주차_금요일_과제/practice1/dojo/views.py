@@ -32,9 +32,13 @@ def post_new(request):
             '''
 
             #방법4)
-            post = Post.objects.create(**form.cleaned_data)
+            #post = Post.objects.create(**form.cleaned_data)
 
-            return redirect('/dojo/') #namespace:name 쓸 것을 권장
+            #방법5)
+            post = form.save(commit=False) #어차피 밑에서 post.save()할 것이므로 임의로 commit값을  정해서 save의 여부를 정할 수 있다
+            post.ip = request.META('REMOTE_ADDR')
+            post.save()
+            return redirect('dojo:post_new') #namespace:name 쓸 것을 권장
     else:
         form = PostForm()
     return render(request,'dojo/post_form.html', {'form':form})
