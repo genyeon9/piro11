@@ -16,5 +16,6 @@ urlpatterns = [
     path('cbv/excel/', views_cbv.excel_download, name='excel_download'),
 
     path('new/', views.post_new, name='post_new'),
+    path('<int:id>/edit/', views.post_edit, name='post_edit'),
 
 ]
