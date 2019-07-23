@@ -1,9 +1,43 @@
 from django.http import HttpResponse, JsonResponse
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 import os
 from django.conf import settings
+from .forms import PostForm
+from .models import Post
 
 # Create your views here.
+
+def post_new(request):
+    if request.method == 'POST':
+        #POST인자는 request.POST와 request.FILES를 제공받음
+        form = PostForm(request.POST, request.FILES) #순서 바뀌면 안 됨
+        if form.is_valid():  #유효성 검사 통과 못하면 오류정보와 같이 form값에 보낸다
+            #방법1)
+            # post = Post()
+            # post.title = form.cleaned_data['title']
+            # post.content = form.cleaned_data['content']
+            # post.save()
+
+            #방법2)
+            '''
+            post = Post(title=form.cleaned_data['title'],
+            content=form.cleaned_data['content'])
+            post.save()
+            '''
+
+            #방법3)
+            '''
+            post = Post.objects.create(title=form.cleaned_data['title'],
+            content=form.cleaned_data['content'])
+            '''
+
+            #방법4)
+            post = Post.objects.create(**form.cleaned_data)
+
+            return redirect('/dojo/') #namespace:name 쓸 것을 권장
+    else:
+        form = PostForm()
+    return render(request,'dojo/post_form.html', {'form':form})
 
 def mysum(request, numbers):
     result = sum(map(lambda x:int(x or 0),numbers.split('/')))

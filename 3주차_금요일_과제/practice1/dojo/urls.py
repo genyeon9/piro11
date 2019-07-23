@@ -15,4 +15,6 @@ urlpatterns = [
     path('cbv/list3/', views_cbv.post_list3, name='post_list3'),
     path('cbv/excel/', views_cbv.excel_download, name='excel_download'),
 
+    path('new/', views.post_new, name='post_new'),
+
 ]
